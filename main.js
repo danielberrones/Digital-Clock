@@ -11,4 +11,13 @@ function displayTime () {
     document.getElementById("MyClock").textContent = time;
 }
 
+function determineEquality () {
+    let myArray = [];
+    for (i = 0; i < 10000; i++){
+        myArray.push(i);
+    }
+    return myArray;
+}
+
+console.log(determineEquality())
 setInterval(displayTime,1000);
