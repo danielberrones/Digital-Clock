@@ -28,6 +28,11 @@ function myNumbers () {
 }
 
 
+
+
 console.log(determineEquality())
 console.log(myNumbers())
 setInterval(displayTime,1000);
+console.log("Will you hire me?")
+console.log("I will exceed all expectations as your newest Software Developer")
+console.log("I am writing this here because I am wondering if you will read my code")
