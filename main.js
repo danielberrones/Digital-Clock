@@ -28,6 +28,15 @@ function myNumbers () {
 }
 
 
+function myNumbers () {
+    let myArray2 = [];
+    for (i = 0; i < 100; i++){
+        myArray2.push(Range(2,2000));
+    }
+    return myArray2;
+}
+
+
 
 
 console.log(determineEquality())
