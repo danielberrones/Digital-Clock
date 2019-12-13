@@ -10,3 +10,5 @@ function displayTime () {
     document.getElementById("MyClock").innerText = time;
     document.getElementById("MyClock").textContent = time;
 }
+
+setInterval(displayTime,1000);
