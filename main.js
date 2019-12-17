@@ -1,4 +1,4 @@
-// Setup
+// myClockFunction
 
 function displayTime () {
     let date = new Date();
@@ -8,7 +8,6 @@ function displayTime () {
 
     let time = h + ":" + m + ":" + s;
     document.getElementById("MyClock").innerText = time;
-    document.getElementById("MyClock").textContent = time;
 }
 
 setInterval(displayTime,1000);
