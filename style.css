@@ -1,13 +1,13 @@
 /* Stylesheet */
 
-* {
+body {
     background-color: black;
 }
 
 #MyClock {
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 88px;
+    font-size: 90px;
     color: limegreen;
-    padding-top:200px;
+    padding-top: 200px;
 }
