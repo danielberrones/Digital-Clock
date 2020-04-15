@@ -3,16 +3,16 @@ body {
 }
 
 #MyClock {
-    text-align: center;
-    font-family: montserrat; 
-    font-size: 100px;
+    font-family: helvetica; 
+    font-size: 8rem;
     color: limegreen;
-    padding-top: 200px;
+    text-align: center;
+    margin-top: 180px;
+    width: 600px;
+    height: 400px;
+    background-color: darkviolet;
 }
 
 div {
-    width: 400px;
-    height: 100px;
-    margin: 0 auto;
-    background-color: darkviolet;
+    margin: auto;
 }

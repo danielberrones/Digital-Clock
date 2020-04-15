@@ -7,7 +7,7 @@ function displayTime () {
     let s = date.getSeconds();
 
     let time = h + ":" + m + ":" + s;
-    document.getElementById("MyClock").innerText = time;
+    document.getElementById("MyClock").innerHTML = time;
 }
 
 setInterval(displayTime,1000);
