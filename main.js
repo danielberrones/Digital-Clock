@@ -6,8 +6,8 @@ function displayTime () {
     let m = date.getMinutes();
     let s = date.getSeconds();
 
-    let time = h + ":" + m + ":" + s;
-    document.getElementById("MyClock").innerHTML = time;
+    let time = h +  m + s;
+    document.getElementById("theTime").innerText = time;
 }
 
 setInterval(displayTime,1000);
