@@ -6,11 +6,9 @@ body {
     font-family: helvetica; 
     font-size: 8rem;
     color: limegreen;
-    text-align: center;
-    margin-top: 180px;
     width: 600px;
     height: 400px;
-    background-color: darkviolet;
+    background-color: rgb(12, 72, 68);
 }
 
 div {
