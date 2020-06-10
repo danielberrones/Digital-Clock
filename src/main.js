@@ -5,7 +5,7 @@ function displayTime () {
     let h = date.getHours();
     let m = date.getMinutes();
     let s = date.getSeconds();
-
+    // main 
     let time = h + m + s;
     document.getElementById("theTime").innerText = time;
 }
