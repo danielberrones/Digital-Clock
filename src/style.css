@@ -2,15 +2,15 @@ body {
     background-color: black;
 }
 
-#MyClock {
-    font-family: helvetica; 
+#theTime{
+    font-family: "Orbitron", sans-serif; 
     font-size: 8rem;
-    color: limegreen;
+    color: #66ff99;
     width: 600px;
     height: 400px;
-    background-color: rgb(12, 72, 68);
+    background-color: purple;
 }
 
 div {
-    margin: auto;
+    margin: 0 auto;
 }
