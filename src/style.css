@@ -2,6 +2,12 @@ body {
     background-color: black;
 }
 
+div {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
 #theTime{
     font-family: "Orbitron", sans-serif; 
     font-size: 8rem;
@@ -9,8 +15,4 @@ body {
     width: 600px;
     height: 400px;
     background-color: purple;
-}
-
-div {
-    margin: 0 auto;
 }
