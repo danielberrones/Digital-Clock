@@ -1,18 +1,13 @@
 body {
-    background-color: black;
+    background: #212121;
 }
-
-div {
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    width: 600px;
-    height: 400px;
-}
-
-#theTime{
-    font-family: "Orbitron", sans-serif; 
-    font-size: 8rem;
-    color: #66ff99;
-    background-color: purple;
+.clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #ff4747;
+    font-size: 60px;
+    font-family: 'Righteous', cursive;
+    letter-spacing: 7px;
 }
