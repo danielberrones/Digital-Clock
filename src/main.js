@@ -19,8 +19,8 @@ function showTime(){
     s = (s < 10) ? "0" + s : s;
     
     var time = h + ":" + m + ":" + s + " " + session;
-    document.getElementById("DigitalCLOCK").innerText = time;
-    document.getElementById("DigitalCLOCK").textContent = time;
+    document.getElementById("Clock").innerText = time;
+    document.getElementById("Clock").textContent = time;
     
     setTimeout(showTime, 1000);
     
