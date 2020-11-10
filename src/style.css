@@ -7,8 +7,9 @@ body {
     vertical-align: center;
     margin-top:200px;
     justify-content: center;
-    color: #ff4747;
+    color: #ee3c3c;
     font-size: 8rem;
     font-family: 'Righteous', cursive;
-    letter-spacing: 2px;
+    letter-spacing: .3rem;
+    border: 2px solid cyan;
 }
