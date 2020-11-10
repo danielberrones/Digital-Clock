@@ -3,22 +3,22 @@ function showTime(){
     let hours = date.getHours(); 
     let minutes = date.getMinutes(); 
     let seconds = date.getSeconds(); 
-    let session = "AM";
+    let amPm = "AM";
     
-    if (hours == 0) {
+    if (hours === 0) {
         hours = 12;
     }
     
     if (hours > 12) {
         hours -=12;
-        session = "PM";
+        amPm = "PM";
     }
     
     hours = (hours < 10) ? "0" + hours : hours;
     minutes = (minutes < 10) ? "0" + minutes : minutes;
     seconds = (seconds < 10) ? "0" + seconds : seconds;
     
-    let time = hours + ":" + minutes + ":" + seconds + " " + session;
+    let time = `${hours}:${minutes}:${seconds} ${amPm}`;
     document.getElementById("Clock").innerText = time;
     document.getElementById("Clock").textContent = time;
     
